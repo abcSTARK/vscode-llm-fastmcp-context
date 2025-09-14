@@ -1,0 +1,9 @@
+{
+  "servers": {
+    "fastmcp-documentation-resource": {
+      "url": "https://abcstark-server.fastmcp.app/mcp",
+      "type": "http"
+    }
+  },
+  "inputs": []
+}

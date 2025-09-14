@@ -1,8 +1,8 @@
 {
   "name": "vscode-llm-fastmcp-context",
-  "displayName": "FastMCP Context Installer",
-  "description": "VS Code extension to register a remote FastMCP MCP server for LLM context assistance.",
-  "version": "0.0.1",
+  "displayName": "FastMCP Documentation MCP Server",
+  "description": "unofficial VS Code extension to connect and register a remote FastMCP Documentation MCP Server for providing documentation context to LLMs.",
+  "version": "1.1.0",
   "publisher": "abcSTARK",
   "engines": {
     "vscode": ">=1.80.0"

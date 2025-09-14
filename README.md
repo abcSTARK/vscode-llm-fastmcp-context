@@ -69,6 +69,14 @@ This extension integrates the [FastMCP](https://gofastmcp.com/getting-started/we
 
 ## Release Notes
 
+### 1.0.0
+
+- Welcome page now matches README and is loaded from a maintainable file.
+- Improved onboarding: welcome and config always run on first activation.
+- Automatic FastMCP server registration to both workspace and global `mcp.json`.
+- One-click onboarding via welcome screen or Command Palette.
+- Updated documentation and UI for professionalism and clarity.
+
 See [CHANGELOG.md](./CHANGELOG.md).
 
 ## License
