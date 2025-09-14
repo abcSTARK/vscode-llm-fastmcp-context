@@ -1,0 +1,46 @@
+{
+  "name": "vscode-llm-fastmcp-context",
+  "displayName": "FastMCP Context Installer",
+  "description": "VS Code extension to register a remote FastMCP MCP server for LLM context assistance.",
+  "version": "0.0.1",
+  "publisher": "abcSTARK",
+  "engines": {
+    "vscode": ">=1.80.0"
+  },
+  "categories": ["Other"],
+  "activationEvents": [
+    "onCommand:fastmcpContext.addServer",
+    "onStartupFinished"
+  ],
+  "main": "./out/extension.js",
+  "contributes": {
+    "commands": [
+      {
+        "command": "fastmcpContext.addServer",
+        "title": "Add FastMCP Context Server"
+      },
+      {
+        "command": "fastmcpContext.resetOnboarding",
+        "title": "[DEV] Reset FastMCP Onboarding State"
+      }
+    ]
+  },
+  "scripts": {
+    "vscode:prepublish": "npm run compile",
+    "compile": "tsc -p ./",
+    "watch": "tsc -watch -p ./",
+    "pretest": "npm run compile",
+    "test": "node ./out/test/runTest.js"
+  },
+  "devDependencies": {
+    "@types/node": "^20.0.0",
+    "@types/vscode": "^1.80.0",
+  "typescript": "^5.0.0"
+  },
+  "icon": "media/icon.png",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/abcSTARK/vscode-llm-fastmcp-context"
+  },
+  "license": "MIT"
+}
