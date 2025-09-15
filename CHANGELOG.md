@@ -2,10 +2,17 @@
 
 # Changelog
 
+## 1.3.3
+
+- Moved docs tool usage section near top of README for faster discovery.
+- Normalized inline tool tag examples to `#fastmcp_docs` for brevity/consistency.
+- Added inline chat examples box near top of welcome page.
+- Minor copy tightening and formatting cleanups.
+
 ## 1.3.2
 
 - Enhanced README with explicit Command Palette shortcuts (Mac/Win/Linux).
-- Added detailed usage section for invoking FastMCP docs tool with `#mcp_fastmcp-docum_fastmcp_docs` examples.
+- Added detailed usage section for invoking FastMCP docs tool with `#fastmcp_docs ` examples.
 - Expanded welcome page: command list, docs tool example prompts, palette shortcut hints.
 - Clarified commands section (added `Show FastMCP Welcome`).
 - General copy refinements for onboarding clarity.

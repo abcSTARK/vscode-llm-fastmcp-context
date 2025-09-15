@@ -47,24 +47,24 @@ FastMCP: [DEV] Reset FastMCP Onboarding State
 
 ## 🧠 Using the FastMCP Docs Tool in Chat
 
-Once the server is registered, your MCP‑enabled chat UI exposes a FastMCP docs tool (exact label varies). If inline tool tags are supported you can reference it directly as `#mcp_fastmcp-docum_fastmcp_docs`.
+Once the server is registered, your MCP‑enabled chat UI exposes a FastMCP docs tool (exact label varies). If inline tool tags are supported you can reference it directly as `#fastmcp_docs `.
 
 ### Quick Examples
 
 ```text
-Use #mcp_fastmcp-docum_fastmcp_docs and summarize FastMCP authentication.
-Use #mcp_fastmcp-docum_fastmcp_docs to list getting-started topics.
-Compare FastMCP auth vs generic MCP auth (use #mcp_fastmcp-docum_fastmcp_docs).
-Explain required headers/tokens (use #mcp_fastmcp-docum_fastmcp_docs).
+Use #fastmcp_docs  and summarize FastMCP authentication.
+Use #fastmcp_docs  to list getting-started topics.
+Compare FastMCP auth vs generic MCP auth (use #fastmcp_docs ).
+Explain required headers/tokens (use #fastmcp_docs ).
 ```
 
 If the hashtag form doesn’t trigger a tool call, say: “Call the FastMCP docs tool and explain authentication.”
 
-| Need         | Prompt Hint                                                               |
-| ------------ | ------------------------------------------------------------------------- |
-| Auth details | `Use #mcp_fastmcp-docum_fastmcp_docs and outline auth requirements.`      |
-| Config help  | `Use #mcp_fastmcp-docum_fastmcp_docs and show an example mcp.json block.` |
-| Topics list  | `Use #mcp_fastmcp-docum_fastmcp_docs and list available sections.`        |
+| Need         | Prompt Hint                                              |
+| ------------ | -------------------------------------------------------- |
+| Auth details | `Use #fastmcp_docs  and outline auth requirements.`      |
+| Config help  | `Use #fastmcp_docs  and show an example mcp.json block.` |
+| Topics list  | `Use #fastmcp_docs  and list available sections.`        |
 
 Trouble? Re-run the Add Server command, then restart the server (the command does this automatically). More tips are in Troubleshooting below.
 
